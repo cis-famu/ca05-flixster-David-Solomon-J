@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import axios from "axios";
 import MovieCard from "./MovieCard";
+import './MovieCard.css';
 
 class Movielist extends Component {
     //Creates a state variable
@@ -34,7 +35,7 @@ class Movielist extends Component {
 
         return (
             <div className="container">
-                <div className="row row-cols-sm-2 row-cols-md-5 row-cols-xxl-4">
+                <div className="row row-cols-sm-2 row-cols-md-5 row-cols-xxl-2">
                     {
                         //arrow means function
                         //Map function always require return
