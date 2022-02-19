@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+body {
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.book-img{
+  height: 10.625rem;
+  max-width: 8.25rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.book-card-details, .on-list{
+  font-size: 14px;
+  color:#333;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.on-list {
+  font-size: 11px;
 }
-
-.App-link {
-  color: #61dafb;
+.book-title, .book-author, .on-list, .buy{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book-title{
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+.book-author{
+  font-style: italic;
+  font-size: 15px;
+}
+.book-title > .badge {
+  font-size: 1rem;
+}
+.buy{
+  background-color: #567b95 !important;
+  font-size: 11px;
+  font-weight: bold;
 }
