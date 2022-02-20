@@ -58,5 +58,6 @@ A user story is a way to capture requirements for an application from an end-use
 - Improve the user interface through styling and coloring ***(1 to 5 points depending on the difficulty of UI improvements)***
 
 ### Video Of site
-My Site
-<img src="https://i.imgur.com/aPtuEhy.gif" alt="Mockup gif" />
+My Site.
+
+<img src="PageRec.gif" alt="Mockup gif" />
