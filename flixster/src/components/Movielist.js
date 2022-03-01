@@ -2,13 +2,12 @@
 import React, {Component} from 'react';
 import axios from "axios";
 import MovieCard from "./MovieCard";
-import './MovieCard.css';
 
 class Movielist extends Component {
     //Creates a state variable
     constructor(props) {
         super(props);
-        this.state = { movies: [] };
+        this.state = { movies: []};
 
     }
 
@@ -42,9 +41,9 @@ class Movielist extends Component {
                         this.state.movies.map(movie => {
 
                             return (
-
-                                <MovieCard  movie={movie} />
-
+                                <>
+                                    <MovieCard  movie={movie} />
+                                </>
                             );
 
                         })
